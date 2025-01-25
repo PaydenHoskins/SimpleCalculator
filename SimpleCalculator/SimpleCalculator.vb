@@ -1,7 +1,7 @@
 ﻿'Payden Hoskins
 'Spring 2025
 'RCET2265
-'OperatorsExample
+'SimpleCalulator
 'https://github.com/PaydenHoskins/SimpleCalculator.git
 
 Option Strict On
