@@ -22,6 +22,10 @@ Module SimpleCalculator
         operation = Console.ReadLine()
         secondNumber = CInt(operation)
 
+        Console.WriteLine("Please make a selection:" & vbNewLine _
+                          & "1. subtract" & vbNewLine _
+                          & "2. add")
+        operation = Console.ReadLine()
     End Sub
 
 End Module
