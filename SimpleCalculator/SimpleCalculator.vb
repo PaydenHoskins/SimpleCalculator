@@ -26,6 +26,17 @@ Module SimpleCalculator
                           & "1. subtract" & vbNewLine _
                           & "2. add")
         operation = Console.ReadLine()
+
+        Console.WriteLine($"you have selecter {operation}")
+        If operation = "1" Then
+            Console.WriteLine("Let's subtract!")
+            Console.WriteLine($"{firstNumber} - {secondNumber} = {firstNumber - secondNumber}")
+        ElseIf operation = "2" Then
+            Console.WriteLine("Let's Add!")
+            Console.WriteLine($"{firstNumber} + {secondNumber} = {firstNumber + secondNumber}")
+        Else
+            Console.WriteLine("INVALID, Try again later!")
+        End If
     End Sub
 
 End Module
