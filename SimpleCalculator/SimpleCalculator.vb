@@ -15,7 +15,12 @@ Module SimpleCalculator
         Dim firstNumber As Integer
         Dim secondNumber As Integer
         Dim operation As String
-        Console.WriteLine(" number enter operation enter number enter ")
+        Console.WriteLine("Choose your first number")
+        operation = Console.ReadLine()
+        firstNumber = CInt(operation)
+        Console.WriteLine("Choose your second number")
+        operation = Console.ReadLine()
+        secondNumber = CInt(operation)
 
     End Sub
 
