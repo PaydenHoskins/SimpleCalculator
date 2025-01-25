@@ -1,4 +1,13 @@
-﻿Imports System.IO
+﻿'Payden Hoskins
+'Spring 2025
+'RCET2265
+'OperatorsExample
+'https://github.com/PaydenHoskins/SimpleCalculator.git
+
+Option Strict On
+Option Explicit On
+
+Imports System.IO
 
 Module SimpleCalculator
 
