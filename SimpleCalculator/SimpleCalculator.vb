@@ -12,8 +12,8 @@ Imports System.IO
 Module SimpleCalculator
 
     Sub Main()
-        Dim JellyBeans As Integer
-        Dim FootBall As Integer
+        Dim firstNumber As Integer
+        Dim secondNumber As Integer
         Dim operation As String
         Console.WriteLine(" number enter operation enter number enter ")
         JellyBeans = Console.Read()
