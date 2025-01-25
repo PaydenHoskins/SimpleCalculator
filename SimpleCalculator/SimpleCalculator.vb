@@ -23,14 +23,14 @@ Module SimpleCalculator
         secondNumber = CInt(operation)
 
         Console.WriteLine("Please make a selection:" & vbNewLine _
-                          & "1. subtract" & vbNewLine _
+                          & "1. multiply" & vbNewLine _
                           & "2. add")
         operation = Console.ReadLine()
 
-        Console.WriteLine($"you have selecter {operation}")
+        Console.WriteLine($"you have selected {operation}")
         If operation = "1" Then
-            Console.WriteLine("Let's subtract!")
-            Console.WriteLine($"{firstNumber} - {secondNumber} = {firstNumber - secondNumber}")
+            Console.WriteLine("Let's multiply!")
+            Console.WriteLine($"{firstNumber} * {secondNumber} = {firstNumber * secondNumber}")
         ElseIf operation = "2" Then
             Console.WriteLine("Let's Add!")
             Console.WriteLine($"{firstNumber} + {secondNumber} = {firstNumber + secondNumber}")
